@@ -1,14 +1,16 @@
 # Floor Plan
 
-Interactive office floor arrangement tool using the supplied Block B / Block C plan.
+Interactive office floor arrangement map using the supplied Block B / Block C floor plan as the base.
 
 ## Current version
-- Uses the original floor-plan image as the map.
-- Create teams dynamically and choose a colour for each team.
-- Select a team and drag over one desk or a group of desks to assign that area.
-- Pan, zoom and fit the floor plan.
-- Manage existing allocations, reassign them, or remove them.
-- Optional team labels; colour overlay is the default.
-- Teams and allocations persist in the browser using localStorage.
 
-This first version is intentionally frontend-only. A shared Google Sheets / Apps Script backend can be added after the floor mapping workflow is confirmed.
+- Uses the supplied floor plan as the visual map
+- Create unlimited teams with custom names and colours
+- Select a team, then drag directly over desks/areas to colour-code them
+- Move, zoom and fit the plan
+- Manage, reassign and remove allocations
+- Optional team labels on the map
+- Team allocation counts
+- Layout saved automatically in the browser
+
+The application is self-contained in `index.html` and can be published directly with GitHub Pages.
